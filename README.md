@@ -1,3 +1,4 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=bostang_task-management-app-spring&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=bostang_task-management-app-spring)
 # Task Management App Spring Boot
 
 sebuah aplikasi berbasis Java menggunakan framework `SpringBoot` untuk demonstrasi penggunaan SonarQube.
