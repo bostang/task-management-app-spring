@@ -40,3 +40,25 @@ tanpa melakukan unit test
 ![maintain-kode-dengan-sonarQube](./img/maintain-kode-dengan-sonarQube.png)
 
 ![cek-di-jwt-io](./img/cek-di-jwt-io.png)
+
+
+Melakukan Integrasi SonarQube dengan `Github action`:
+![analysis-method](./img/analysis-method.png)
+
+
+# Cara store credential di tempat yang tepat
+➡️Github
+
+sonar token ➡️ untuk akses sonarQube.
+
+github selain menjadi repository juga sebagai secret manager.
+
+![sonar-cloud-Github-Analyze](./img/sonar-cloud-Github-Analyze.png)
+
+![github-setting-secret](./img/github-setting-secret.png)
+
+pilih **New Repository secret**
+
+![github-storing-secret](./img/github-storing-secret.png)
+
+![information-project-key](./img/information-project-key.png)
