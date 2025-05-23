@@ -53,6 +53,8 @@ sonar token ➡️ untuk akses sonarQube.
 
 github selain menjadi repository juga sebagai secret manager.
 
+Administration > Analysis Method
+
 ![sonar-cloud-Github-Analyze](./img/sonar-cloud-Github-Analyze.png)
 
 ![github-setting-secret](./img/github-setting-secret.png)
@@ -62,3 +64,7 @@ pilih **New Repository secret**
 ![github-storing-secret](./img/github-storing-secret.png)
 
 ![information-project-key](./img/information-project-key.png)
+
+
+setelah build, di actions ada error apabila `dependency graph` belum di-_enable_.
+![advanced-security-dependency-graph](./img/advanced-security-dependency-graph.png)
