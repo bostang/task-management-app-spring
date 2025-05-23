@@ -1,0 +1,58 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250523082002
+Username: LAPTOP-E85G1CFV\ASUS
+RunAs User: LAPTOP-E85G1CFV\ASUS
+Configuration Name: 
+Machine: LAPTOP-E85G1CFV (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30612
+PSVersion: 5.1.26100.4061
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4061
+BuildVersion: 10.0.26100.4061
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./logfile_install.txt
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> .\mvnw clean install
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.725 s -- in com.bni.taskmgtapp.TaskmgtappApplicationTests
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco:0.8.12:report (generate-code-coverage-report) @ taskmgtapp ---
+[INFO] Loading execution data file C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-manag
+ement-app-spring\target\jacoco.exec
+[INFO] Analyzed bundle 'taskmgtapp' with 10 classes
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ taskmgtapp ---
+[INFO] Building jar: C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spri
+ng\target\taskmgtapp-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.4.5:repackage (repackage) @ taskmgtapp ---
+[INFO] Replacing main artifact C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-managemen
+t-app-spring\target\taskmgtapp-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands
+-on\task-management-app-spring\target\taskmgtapp-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- install:3.1.4:install (default-install) @ taskmgtapp ---
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\
+pom.xml to C:\Users\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\
+target\taskmgtapp-0.0.1-SNAPSHOT.jar to C:\Users\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.732 s
+[INFO] Finished at: 2025-05-23T08:20:41+07:00
+[INFO] ------------------------------------------------------------------------
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250523082048
+**********************

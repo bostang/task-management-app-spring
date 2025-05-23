@@ -1,0 +1,205 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20250523110847
+Username: LAPTOP-E85G1CFV\ASUS
+RunAs User: LAPTOP-E85G1CFV\ASUS
+Configuration Name: 
+Machine: LAPTOP-E85G1CFV (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 30612
+PSVersion: 5.1.26100.4061
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.4061
+BuildVersion: 10.0.26100.4061
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is ./log/logfile_run.txt
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw compile
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+2025-05-23T11:22:10.419+07:00  INFO 24684 --- [taskmgtapp] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for
+ persistence unit 'default'
+2025-05-23T11:22:10.425+07:00  INFO 24684 --- [taskmgtapp] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-23T11:22:10.428+07:00  INFO 24684 --- [taskmgtapp] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  01:01 min
+[INFO] Finished at: 2025-05-23T11:22:10+07:00
+[INFO] ------------------------------------------------------------------------
+Terminate batch job (Y/N)? Y
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw clean install
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw compile
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw compile
+[INFO] Scanning for projects...
+[INFO]
+[INFO] -------------------------< com.bni:taskmgtapp >-------------------------
+[INFO] Building taskmgtapp 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO]
+[INFO] --- jacoco:0.8.12:prepare-agent (default-prepare-agent) @ taskmgtapp ---
+[INFO] argLine set to "-javaagent:C:\\Users\\ASUS\\.m2\\repository\\org\\jacoco\\org.jacoco.agent\\0.8.12\\org.jacoco.agent-0.8.12-runtime.jar=destfile=C:\\
+Users\\ASUS\\Documents\\BNI_ODP IT\\Bootcamp Rakamin\\in-class-learning\\W2\\2025-05-23\\hands-on\\task-management-app-spring\\target\\jacoco.exec"
+[INFO]
+[INFO] --- resources:3.3.1:resources (default-resources) @ taskmgtapp ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 0 resource from src\main\resources to target\classes
+[INFO]
+[INFO] --- compiler:3.14.0:compile (default-compile) @ taskmgtapp ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.600 s
+[INFO] Finished at: 2025-05-23T11:56:13+07:00
+[INFO] ------------------------------------------------------------------------
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+        at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1189) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:658) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.41.jar:10.1.41]
+        at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2025-05-23T11:57:00.699+07:00  INFO 16456 --- [taskmgtapp] [ionShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waitin
+g for active requests to complete
+2025-05-23T11:57:00.730+07:00  INFO 16456 --- [taskmgtapp] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-23T11:57:00.736+07:00  INFO 16456 --- [taskmgtapp] [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for
+ persistence unit 'default'
+2025-05-23T11:57:00.738+07:00  INFO 16456 --- [taskmgtapp] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-05-23T11:57:00.741+07:00  INFO 16456 --- [taskmgtapp] [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  40.510 s
+[INFO] Finished at: 2025-05-23T11:57:00+07:00
+[INFO] ------------------------------------------------------------------------
+Terminate batch job (Y/N)? Y
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw clean install
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+2025-05-23T11:57:58.843+07:00  INFO 3496 --- [taskmgtapp] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available
+(set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table tasks (id bigint generated by default as identity, completed boolean not null, description varchar(500), title varchar(100) not null
+, primary key (id))
+2025-05-23T11:57:58.878+07:00  INFO 3496 --- [taskmgtapp] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory
+for persistence unit 'default'
+2025-05-23T11:57:58.878+07:00  INFO 3496 --- [taskmgtapp] [           main] c.b.t.c.RateLimitInterceptor             : ? RateLimitInterceptor initialized!
+2025-05-23T11:57:59.734+07:00  WARN 3496 --- [taskmgtapp] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by
+ default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T11:58:01.042+07:00  INFO 3496 --- [taskmgtapp] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'
+. Database available at 'jdbc:h2:mem:taskdb'
+2025-05-23T11:58:01.197+07:00  INFO 3496 --- [taskmgtapp] [           main] c.b.t.TaskmgtappApplicationTests         : Started TaskmgtappApplicationTests in
+ 5.044 seconds (process running for 18.866)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.256 s -- in com.bni.taskmgtapp.TaskmgtappApplicationTests
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco:0.8.12:report (generate-code-coverage-report) @ taskmgtapp ---
+[INFO] Loading execution data file C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\t
+arget\jacoco.exec
+[INFO] Analyzed bundle 'taskmgtapp' with 12 classes
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ taskmgtapp ---
+[INFO] Building jar: C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\target\taskmgta
+pp-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.5.0:repackage (repackage) @ taskmgtapp ---
+[INFO] Replacing main artifact C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\targe
+t\taskmgtapp-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-managemen
+t-app-spring\target\taskmgtapp-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- install:3.1.4:install (default-install) @ taskmgtapp ---
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\pom.xml to C:\User
+s\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\target\taskmgtapp-
+0.0.1-SNAPSHOT.jar to C:\Users\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  29.761 s
+[INFO] Finished at: 2025-05-23T11:58:04+07:00
+[INFO] ------------------------------------------------------------------------
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw clean install
+        Minimum pool size: undefined/unknown
+        Maximum pool size: undefined/unknown
+2025-05-23T12:04:31.442+07:00  INFO 26032 --- [taskmgtapp] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available
+ (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: create table tasks (id bigint generated by default as identity, completed boolean not null, description varchar(500), title varchar(100) not null
+, primary key (id))
+2025-05-23T12:04:31.508+07:00  INFO 26032 --- [taskmgtapp] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory
+ for persistence unit 'default'
+2025-05-23T12:04:31.518+07:00  INFO 26032 --- [taskmgtapp] [           main] c.b.t.c.RateLimitInterceptor             : ? RateLimitInterceptor initialized!
+2025-05-23T12:04:33.236+07:00  WARN 26032 --- [taskmgtapp] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled b
+y default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-23T12:04:36.468+07:00  INFO 26032 --- [taskmgtapp] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console
+'. Database available at 'jdbc:h2:mem:taskdb'
+2025-05-23T12:04:36.761+07:00  INFO 26032 --- [taskmgtapp] [           main] c.b.t.TaskmgtappApplicationTests         : Started TaskmgtappApplicationTests i
+n 9.347 seconds (process running for 24.611)
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.671 s -- in com.bni.taskmgtapp.TaskmgtappApplicationTests
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 12, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- jacoco:0.8.12:report (generate-code-coverage-report) @ taskmgtapp ---
+[INFO] Loading execution data file C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\t
+arget\jacoco.exec
+[INFO] Analyzed bundle 'taskmgtapp' with 12 classes
+[INFO]
+[INFO] --- jar:3.4.2:jar (default-jar) @ taskmgtapp ---
+[INFO] Building jar: C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\target\taskmgta
+pp-0.0.1-SNAPSHOT.jar
+[INFO]
+[INFO] --- spring-boot:3.4.5:repackage (repackage) @ taskmgtapp ---
+[INFO] Replacing main artifact C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\targe
+t\taskmgtapp-0.0.1-SNAPSHOT.jar with repackaged archive, adding nested dependencies in BOOT-INF/.
+[INFO] The original artifact has been renamed to C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-managemen
+t-app-spring\target\taskmgtapp-0.0.1-SNAPSHOT.jar.original
+[INFO]
+[INFO] --- install:3.1.4:install (default-install) @ taskmgtapp ---
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\pom.xml to C:\User
+s\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.pom
+[INFO] Installing C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring\target\taskmgtapp-
+0.0.1-SNAPSHOT.jar to C:\Users\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHOT.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  37.431 s
+[INFO] Finished at: 2025-05-23T12:04:41+07:00
+[INFO] ------------------------------------------------------------------------
