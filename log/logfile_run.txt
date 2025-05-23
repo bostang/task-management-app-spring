@@ -203,3 +203,12 @@ s\ASUS\.m2\repository\com\bni\taskmgtapp\0.0.1-SNAPSHOT\taskmgtapp-0.0.1-SNAPSHO
 [INFO] Total time:  37.431 s
 [INFO] Finished at: 2025-05-23T12:04:41+07:00
 [INFO] ------------------------------------------------------------------------
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> ./mvnw spring-boot:run
+
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS C:\Users\ASUS\Documents\BNI_ODP IT\Bootcamp Rakamin\in-class-learning\W2\2025-05-23\hands-on\task-management-app-spring> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20250523132401
+**********************

@@ -26,7 +26,17 @@ tanpa melakukan unit test
 
 3. Kirim / Test API lewat `postman`
 
-3.1 simulasi login
 
+3.1 Generate token
+![generate-token](./img/generate-token.png)
 
-## Implementasi JWT
+3.2 Validasi token
+![validasi-token-seharusnya](./img/validasi-token-seharusnya.png)
+
+![validasi-token-saat-ini](./img/validasi-token-saat-ini.png)
+
+4. Maintain kode menggunakan SonarQube
+
+![maintain-kode-dengan-sonarQube](./img/maintain-kode-dengan-sonarQube.png)
+
+![cek-di-jwt-io](./img/cek-di-jwt-io.png)
